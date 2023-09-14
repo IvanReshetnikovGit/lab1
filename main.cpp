@@ -1,8 +1,6 @@
 #include "aCalculate.h"
 #include "aCalculation.h"
 
-using namespace std;
-
 int main()
 {
     double x =0.48*12;
