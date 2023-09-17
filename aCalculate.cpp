@@ -10,7 +10,7 @@
         {
             massiveDod.calculation(i,y,z);
             massive.push_back(massiveDod);
-            cout<<"Element №"<<p+1<<" "<<massive[p].a<<endl;
+            cout<<"Element №"<<p+1<<" "<<massive[p].getA()<<endl;
             p++; i=i+0.2;
         }
     }

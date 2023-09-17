@@ -9,10 +9,9 @@ int main()
 
     aCalculation firsta;
     firsta.calculation(x,y,z);
-    cout<<"a = "<<firsta.a<<endl;
+    cout<<"a = "<<firsta.getA()<<endl;
 
     Calculate(y,z);
     
     return 0;
 }
-
