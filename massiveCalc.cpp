@@ -1,6 +1,6 @@
-   #include "aCalculate.h"
+   #include "massiveCalc.h"
 
-    void Calculate(double y,double z)
+    vector<aCalculation> massiveCalc(double y,double z)
     {
     int p=0;
     double i=-1;
@@ -13,4 +13,5 @@
             cout<<"Element №"<<p+1<<" "<<massive[p].getA()<<endl;
             p++; i=i+0.2;
         }
+        return massive;
     }

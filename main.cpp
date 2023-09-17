@@ -1,4 +1,4 @@
-#include "aCalculate.h"
+#include "massiveCalc.h"
 #include "aCalculation.h"
 
 int main()
@@ -11,7 +11,7 @@ int main()
     firsta.calculation(x,y,z);
     cout<<"a = "<<firsta.getA()<<endl;
 
-    Calculate(y,z);
+    vector<aCalculation> massive = massiveCalc(y,z);
     
     return 0;
 }

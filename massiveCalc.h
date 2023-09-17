@@ -3,4 +3,4 @@
  #include<iostream>
 using namespace std;
 
- void Calculate(double y,double z);
+vector<aCalculation> massiveCalc(double y,double z);
