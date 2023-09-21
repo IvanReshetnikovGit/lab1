@@ -10,6 +10,8 @@ int main()
     aCalculation firsta;
     firsta.calculation(x,y,z);
     cout<<"a = "<<firsta.getA()<<endl;
+    cout<<"b = "<<firsta.getB()<<endl;
+    cout<<endl;
 
     vector<aCalculation> massive = massiveCalc(y,z);
     
