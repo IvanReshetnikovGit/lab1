@@ -6,6 +6,9 @@ class aCalculation
 private:
     double b;
     double a;
+
+    void bCalc(double x,double y,double z);
+
 public:
     double getA();
     double getB();
